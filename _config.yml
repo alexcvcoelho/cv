@@ -32,3 +32,10 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+
+gems:
+  - jekyll-multiple-languages-plugin
+
+languages: ["pt-Br", "en"]
+
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
