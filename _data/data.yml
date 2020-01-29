@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Alex Coelho
-    tagline: Software Developer
+    tagline: Desenvolvedor de Software
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -41,14 +41,15 @@ sidebar:
 career-profile:
     title: Perfil Profissional
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Em 2014 iniciei minha carreira profissional como estagiário dentro da faculdade
+      em que eu cursava Engenharia de Computação, inicialmente eu atuaria com suporte e manutenção
+      de computadores, mas assim que iniciei o estágio demonstrei grande interesse pela área de 
+      desenvolvimento de software e passei a aprender PHP, 3 meses depois fui tranferido para a
+      área de desenvolvimento, onde passei a desenvolver softwares para uso interno. Durante o estágio
+      tive contato com a primeira linguagem de programação que passei a conhecer a fundo, bancos de dados
+      SQL Server e MySQL.
 education:
-    - degree: Ciência de Dados
+    - degree: Especialização em Ciência de Dados
       university: FACENS - Faculdade de Engenharia de Sorocaba
       time: 2018 - 2019
       details: |
@@ -71,43 +72,43 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Desenvolvedor Web Sr.
+      time: 2018 - Atual
+      company: Bluecore.it
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Integrante do time de desenvolvimento de uma plataforma de doações e destinação de imposto
+        de renda a ONGs e projetos renomados, entre eles projetos de clubes como Flamengo e Corinthians, 
+        com o apoio de empresas como Ambev e Instituto Votorantim. Desenvolvendo em .NET Core 2.2 com Vuejs e banco SQL Server,
+        hospedado em servidores Azure. Tem sido uma época de muito aprendizado com relação ao C%, pois até então tinha apenas
+        um conhecimento superficial e também com relação a plataforma Azure, na qual utilizamos ferramentas de CI/CD em todos
+        os ambientes.
+    - role: Analista de Sistemas Pl.
+      time: 2017 - 2018
+      company: FACENS - Faculdade de Engenharia de Sorocaba
+      details: |            
+          Responsável pelo desenvolvimento  e suporte a sistemas legados em PHP e Ruby, além de desenvolver painéis
+          com PowerBI e estruturação de todo o processo de ETL. Nesta época auxiliei na implantação do CRM SalesForce
+          para comunicação com os leads, juntamente com uma integração entre o CRM e o ERP da Totvs. Neste período tive grande
+          contato com a linguagem APEX e as ferramentas de BI e ETL da Microsoft, foi durante esse período que me interessei pela
+          pós graduação em Ciência de Dados.
+    - role: Analista de Sistemas Jr.
+      time: 2016 - 2017
+      company: FACENS - Faculdade de Engenharia de Sorocaba
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Responsável pelo desenvolvimento  e suporte a sistemas legados em PHP, tendo como maior desafio
+        a contribuição em um projeto Open Source desenvolvido em Ruby On Rails com Angular, tendo como cache o REDIS e
+        ferramenta de busccas o Elasticsearch, tudo rodando em containers Docker, a contribuição incluía a tradução da 
+        plataforma de frances para português, adaptação para as necessidades da empresa e implantação. 
+        Foi onde tive meu primeriro contato com Ruby e me apaixonei pela linguagem e pelo framework, e a partir de então
+        passei a estudar mais sobre Docker e até mesmo a conteinerizar meu ambiente de desenvolvimento, além de se tornar um usuário
+        Linux testador de várias distros.
+    - role: Estagiário
+      time: 2014 - 2016
+      company: FACENS - Faculdade de Engenharia de Sorocaba
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Responsável pelo desenvolvimento de alguns softwares de uso interno da faculdade
+        escritos em PHP com bancos de dados MySQL e SQL Server, hospedados em servidores Linux utilizando
+        Apache. Foi a época em que tive meu primeiro contato mais a fundo com uma linguagem de programação.
 projects:
     title: Projects
     intro: >
@@ -158,26 +159,43 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills &amp; Proeficiência
 
     toolset:
-      - name: Python & Django
+      - name: PHP
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 80%
 
-      - name: Sketch & Photoshop
+      - name: .NET Core
+        level: 70%
+
+      - name: Laravel
         level: 60%
+
+      - name: Docker
+        level: 75%
+
+      - name: Jenkins
+        level: 60%
+
+      - name: Vuejs
+        level: 76%
+
+      - name: Angular
+        level: 65%
+
+      - name: SQL Server
+        level: 88%
+
+      - name: MySQL
+        level: 97%
+
+      - name: Linux
+        level: 76%
+      
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
