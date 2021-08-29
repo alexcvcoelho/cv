@@ -1,5 +1,5 @@
-{% assign experiences = site.data.data.experiences %}
-{% assign experiences_title = site.data.data.experiences_title %}
+{% assign experiences = site.data[page.lang].experiences %}
+{% assign experiences_title = site.data[page.lang].experiences_title %}
 {% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
@@ -18,21 +18,25 @@
       <div class="upper-row">
         <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+      </div>
+      <!--//upper-row-->
 
       <div class="company">{{ experience.company }}</div>
 
-    </div><!--//meta-->
+    </div>
+    <!--//meta-->
 
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
-    </div><!--//details-->
+    </div>
+    <!--//details-->
     {% endif %}
 
-  </div><!--//item-->
+  </div>
+  <!--//item-->
   {% endfor %}
 
-</section><!--//section-->
+</section>
+<!--//section-->
 {% endif %}
-

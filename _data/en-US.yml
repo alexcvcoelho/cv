@@ -1,0 +1,197 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Alex Coelho
+    tagline: Software Developer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: alexcvcoelho@gmail.com
+    phone: 15 981267305
+    website:  alexcvcoelho.github.io/blog #do not add http://
+    linkedin: alex-coelho-475654a3
+    github: alexcvcoelho
+    gitlab:
+    bitbucket:
+    twitter: '@alexcvcoelho'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages_title: Idiomas
+    languages:
+      - idiom: English
+        level: Intermediary (write and listen well)
+
+    interests_title: Interests
+    interests:
+      - item: Tecnology
+        link:
+
+      - item: Projects Open Source
+        link:
+
+      - item: Volunteering work
+        link:
+
+      - item: Gold lis scout
+        link:
+
+career-profile:
+    title: Professional Profile
+    summary: |
+      I work very well as a team, I prefer to listen a lot before I speak, I like readable code
+      even though it's not the most beautiful code possible, but it makes itself understood. I work well under pressure,
+      when the system crashes or the bug appears I remain calm and focus on solving the problem, I believe feedback is important.
+education_title: Education
+education:
+    - degree: Specialized in Data Science
+      university: FACENS - Faculdade de Engenharia de Sorocaba
+      time: 2018 - 2019
+      details: |
+        Learning data manipulation with Python and the pandas library, Jupyter, Machine
+        Learning, Web Scrapy, Statistics and Data Visualization.
+    - degree: B.Sc Computer Engeneering
+      university: FACENS - Faculdade de Engenharia de Sorocaba
+      time: 2013 - 2017
+      details: |
+        Algorithm monitor for two consecutive semesters and winner of a 50% scholarship in a graduate degree
+        within the college for good performance in the National Student Performance Exam (Enade) test.
+experiences_title: Work Experiences
+experiences:
+    - role: Senior Software Developer
+      time: 2018 - Present
+      company: Bluecore.it
+      details: |
+        Member of the development team for a donation and tax destination platform
+        income to renowned NGOs and projects, including projects by clubs such as Flamengo and Corinthians,
+        with the support of companies such as Ambev and Instituto Votorantim. Developing in .NET Core 2.2 with Vuejs and SQL Server database,
+        hosted on Azure servers. It has been a time of a lot of learning in relation to C#, because until then there was only
+        a superficial knowledge and also regarding the Azure platform, in which we use CI/CD tools in all
+        the environments.
+    - role: Systems Analyst
+      time: 2017 - 2018
+      company: FACENS - Faculdade de Engenharia de Sorocaba
+      details: |            
+          Responsible for the development and support of legacy systems in PHP and Ruby, in addition to developing dashboards
+          with PowerBI and structuring the entire ETL process. At this time I helped in the implementation of CRM SalesForce
+          for communication with leads, together with an integration between CRM and Totvs ERP. In this period I had a great
+          contact with the APEX language and Microsoft's BI and ETL tools, it was during this period that I became interested in
+          post graduation in Data Science.
+    - role: Junior Systems Analyst
+      time: 2016 - 2017
+      company: FACENS - Faculdade de Engenharia de Sorocaba
+      details: |
+        Responsible for the development and support of legacy systems in PHP, with the biggest challenge
+        the contribution to an Open Source project developed in Ruby On Rails with Angular, with REDIS and cache as
+        search engine Elasticsearch, all running in Docker containers, the contribution included the translation of the
+        platform from French to Portuguese, adaptation to the company's needs and implementation.
+        That's where I had my first contact with Ruby and fell in love with the language and the framework, and from then on
+        I started to study more about Docker and even to containerize my development environment, besides becoming a user
+        Linux tester of various distros.
+    - role: Intern
+      time: 2014 - 2016
+      company: FACENS - Faculdade de Engenharia de Sorocaba
+      details: |
+        Responsible for the development of some software for internal use at the faculty.
+        written in PHP with MySQL and SQL Server databases, hosted on Linux servers using
+        Apache. It was the time when I had my first deeper contact with a programming language.
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proeficiência
+
+    toolset:
+      - name: PHP
+        level: 98%
+
+      - name: Ruby on Rails
+        level: 80%
+
+      - name: Python
+        level: 75%
+
+      - name: .NET Core
+        level: 70%
+
+      - name: Laravel
+        level: 60%
+
+      - name: Docker
+        level: 75%
+
+      - name: Jenkins
+        level: 60%
+
+      - name: Vuejs
+        level: 76%
+
+      - name: Angular
+        level: 65%
+
+      - name: SQL Server
+        level: 88%
+
+      - name: MySQL
+        level: 97%
+
+      - name: Linux
+        level: 76%
+      
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
