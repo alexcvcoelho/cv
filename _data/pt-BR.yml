@@ -1,202 +1,213 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Esteja ciente de que mesmo um pequeno erro de sintaxe aqui pode levar a falhas na saída.
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  about: False # defina como False ou comente a linha se quiser remover o "como usar?" na barra lateral
+  education: False # defina como False se quiser a educação na seção principal em vez de na barra lateral
 
-    # Profile information
-    name: Alex Coelho
-    tagline: Desenvolvedor de Software
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Informações do perfil
+  name: Alex Coelho
+  tagline: Desenvolvedor de Software
+  avatar: profile.jpeg  # coloque uma imagem 100x100 dentro da pasta /assets/images/ e forneça o nome do arquivo abaixo
 
-    # Sidebar links
-    email: alexcvcoelho@gmail.com
-    phone: 15 981267305
-    website:  alexcvcoelho.github.io/blog #do not add http://
-    linkedin: alex-coelho-475654a3
-    github: alexcvcoelho
-    gitlab:
-    bitbucket:
-    twitter: '@alexcvcoelho'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Links da barra lateral
+  email: alexcvcoelho@gmail.com
+  phone: 15 981267305
+  website: alexcvcoelho.github.io/blog # não adicione http://
+  linkedin: alexcvcoelho
+  github: alexcvcoelho
+  gitlab:
+  bitbucket:
+  twitter: '@alexcvcoelho'
+  stack-overflow: # Número/Username, por exemplo, 123456/alandoe
+  codewars:
+  goodreads: # Número-Username, por exemplo, 123456-alandoe
 
-    languages_title: Idiomas
-    languages:
-      - idiom: Inglês
-        level: Intermediário (boa leitura e boa escrita)
+  languages_title: Idiomas
+  languages:
+    - idiom: Português
+      level: Fluente
+    - idiom: Inglês
+      level: Intermediário
 
-    interests_title: Interesses
-    interests:
-      - item: Tecnologia
-        link:
-
-      - item: Mundo Open Source
-        link:
-
-      - item: Ações sociais
-        link:
-
-      - item: Escoteiro Lis de Ouro
-        link:
+  interests_title: Interesses
+  interests:
+    - item: Tecnologia
+      link:
+    - item: Projetos Open Source
+      link:
+    - item: Trabalho voluntário
+      link:
+    - item: Escoteiro de ouro
+      link:
 
 career-profile:
-    title: Perfil Profissional
-    summary: |
-      Tenho mais de 7 anos de experiência trabalhando com desenvolvimento de software, já tive a oportunidade de 
-      trabalhar em projetos na área educacional, social e financeira, em geral atuando desde o back-end até as integrações
-      com APIs no front-end, utilizando tecnologias como Vue, Angular, .Net Core, Ruby on Rails, Laravel e Node, sempre se utilizando
-      de ferramentas de CI/CD nos deploys. Atualmente atuando no desenvolvimento mobile com React Native, utilizando 
-      Expo e Fastlane.
-education_title: Formação
+  title: Perfil Profissional
+  summary: |
+    Tenho mais de 10 anos de experiência trabalhando com desenvolvimento de software. Tive a oportunidade de
+    trabalhar em projetos nas áreas educacional, social e financeira, geralmente atuando do back-end às integrações
+    com APIs no front-end, usando tecnologias como Vue, Angular, .Net Core, Ruby on Rails, Laravel e Node, sempre utilizando
+    ferramentas de CI/CD nas implantações.
+
+education_title: Educação
 education:
-    - degree: Especialização em Ciência de Dados
-      university: FACENS - Faculdade de Engenharia de Sorocaba
-      time: 2018 - 2019
-      details: |
-        Aprendizado proporcionado na especialização:
-        - Python, Pandas e Jupyter
-        - Estatística
-        - Aprendizado de máquina
-        - Web Scrapy
-        - Visualização de dados com PowerBI
-    - degree: Engenharia de Computação
-      university: FACENS - Faculdade de Engenharia de Sorocaba
-      time: 2013 - 2017
-      details: |
-        - Monitor de algoritmos por dois semestres consecutivos 
-        - Ganhador de uma bolsa de 50% em uma pós graduação
-        dentro da faculdade por bom desempenho na prova Exame Nacional de Desempenho dos Estudantes (Enade).
-experiences_title: Experiência Profissional
+  - degree: Especialização em Data Science
+    university: FACENS - Faculdade de Engenharia de Sorocaba
+    time: 2018 - 2019
+    details: |
+      Aprendizados fornecidos nesta especialização:
+      - Python, Pandas e Jupyter
+      - Estatística
+      - Machine Learning
+      - Web Scraping
+      - Visualização de dados com PowerBI
+  - degree: Bacharelado em Engenharia da Computação
+    university: FACENS - Faculdade de Engenharia de Sorocaba
+    time: 2013 - 2017
+    details: |
+      - Monitor de Algoritmos por dois semestres consecutivos
+      - Vencedor de uma bolsa de 50% em um curso de pós-graduação na faculdade pelo bom desempenho no 
+      exame do ENADE.
+
+experiences_title: Experiências Profissionais
 experiences:
-    - role: Desenvolvedor Mobile
-      time: 2021 - Atual
-      company: Bluecore.it
-      details: |
-        Trabalhando no desenvolvimento de aplicações mobile para IOS e Android utilizando as seguintes tecnologias:
-        - React Native
-        - Ionic
-        - Fastlane
-        - Expo
-    - role: Desenvolvedor Web Sr.
-      time: 2018 - 2021
-      company: Bluecore.it
-      details: |
-        Responsável pelo desenvolvimento de uma plataforma de doações online, trabalhando com grandes empresas do mercado,
-        utilizando as seguintes tecnologias:
-        - .Net Core
-        - SQL Server
-        - Azure DevOps
-    - role: Analista de Sistemas Pl.
-      time: 2017 - 2018
-      company: FACENS - Faculdade de Engenharia de Sorocaba
-      details: |     
-          Suporte e desenvolvimento de sistemas Web se utilizando as seguintes tecnologias:
-          - PHP
-          - MySQL
-          - Ruby On Rals
-          - Postgres
-          - SalesForce       
-    - role: Analista de Sistemas Jr.
-      time: 2016 - 2017
-      company: FACENS - Faculdade de Engenharia de Sorocaba
-      details: |
-        Suporte e desenvolvimento de sistemas Web se utilizando as seguintes tecnologias:
-        - PHP
-        - Ruby On Rails
-        - Docker
-        - Linux
-    - role: Estagiário
-      time: 2014 - 2016
-      company: FACENS - Faculdade de Engenharia de Sorocaba
-      details: |
-        Aprendizado no desenvolvimento de aplicações Web:
-        - PHP
-        - MySQL
-        - Apache Server
+  - role: Tech Lead
+    time: 2022 - Presente
+    company: Bluecore.it
+    details: |
+      Responsável pelo levantamento de requisitos, revisões de código, definições de arquitetura, documentação de projetos e criação de pipelines CI/CD. Auxílio aos desenvolvedores juniores usando as seguintes tecnologias:
+      - Node (JavaScript e TypeScript)
+      - Vue.js
+      - .NET Core
+      - SQL Server
+      - Azure DevOps
+      - Datadog
+  - role: Desenvolvedor de Software Freelancer
+    time: 2018 - Presente
+    company: SESI Firjan
+    details: |
+      Trabalhando no desenvolvimento de uma plataforma Open Source Fabmanager em RoR, integrando com gateways de pagamento, correções de bugs e manutenção:
+      - Ruby On Rails
+      - React
+      - AngularJS
+      - Sidekiq
+      - Redis
+      - Postgres
+      - Elasticsearch
+  - role: Desenvolvedor de Software Sênior
+    time: 2020 - 2022
+    company: Bluecore.it
+    details: |
+      Trabalhando no desenvolvimento de aplicativos móveis para iOS e Android usando as seguintes tecnologias:
+      - React Native
+      - Ionic (com AngularJS e Vue.js)
+      - Fastlane
+      - Expo
+  - role: Desenvolvedor de Software Pleno
+    time: 2018 - 2020
+    company: Bluecore.it
+    details: |
+      Responsável pelo desenvolvimento de uma plataforma de doações online, trabalhando com grandes empresas do mercado,
+      usando as seguintes tecnologias:
+      - PHP
+      - .NET Core
+      - SQL Server
+      - Azure DevOps
+  - role: Analista de Sistemas Pleno
+    time: 2017 - 2018
+    company: FACENS - Faculdade de Engenharia de Sorocaba
+    details: |            
+      Suporte e desenvolvimento de sistemas Web usando as seguintes tecnologias:
+      - PHP
+      - MySQL
+      - Ruby On Rails
+      - Postgres
+      - Salesforce
+  - role: Analista de Sistemas Júnior
+    time: 2016 - 2017
+    company: FACENS - Faculdade de Engenharia de Sorocaba
+    details: |
+      Suporte e desenvolvimento de sistemas Web usando as seguintes tecnologias:
+      - PHP
+      - Ruby on Rails
+      - Docker
+      - Linux
+  - role: Estagiário
+    time: 2014 - 2016
+    company: FACENS - Faculdade de Engenharia de Sorocaba
+    details: |
+      Aprendizado em Desenvolvimento de Aplicações Web:
+      - PHP
+      - MySQL
+      - Apache Server
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Projetos
+  intro: >
+    Você pode listar seus projetos paralelos ou bibliotecas de código aberto nesta
+    seção. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "Um template de site responsivo projetado para ajudar startups a promover, comercializar e vender seus produtos."
+    - title: DevStudio
+      link: "#"
+      tagline: "Um template de site responsivo projetado para ajudar desenvolvedores/designer web a comercializar seus serviços."
+    - title: Tempo
+      link: "#"
+      tagline: "Um template de site responsivo projetado para ajudar startups a promover seus produtos ou serviços e atrair usuários e investidores."
+    - title: Atom
+      link: "#"
+      tagline: "Uma solução abrangente de template de site para startups/desenvolvedores comercializarem seus aplicativos móveis."
+    - title: Delta
+      link: "#"
+      tagline: "Um tema responsivo de uma página em Bootstrap projetado para ajudar desenvolvedores de aplicativos a promoverem seus aplicativos móveis."
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  title: Publicações
+  intro: |
+    Você pode listar suas publicações nesta seção. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: A Arte da Programação de Computadores
+      link: "#"
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
+    - title: "Programação Genética III: Invenção Darwiniana & Solução de Problemas"
+      link: "#"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, EUA, 1ª ed. (1999)"
+    - title: Um compilador dirigido por sintaxe para Algol 60
+      link: "#"
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills
-    toolset:
-      - name: Laravel
-        level: 95%
-
-      - name: .NET Core
-        level: 85%
-
-      - name: Ruby on Rails
-        level: 80%
-
-      - name: Vuejs
-        level: 76%
-
-      - name: React Native
-        level: 65%
-
-      - name: SQL Server
-        level: 88%
-
-      - name: MySQL
-        level: 85%
-
-      - name: Linux
-        level: 76%
-
-      - name: Docker
-        level: 75%
-      
-
+  title: Habilidades
+  toolset:
+    - name: Laravel
+      level: 98%
+    - name: Ruby on Rails
+      level: 95%
+    - name: Node
+      level: 93%
+    - name: .NET Core
+      level: 90%
+    - name: Vue.js
+      level: 88%
+    - name: AngularJS
+      level: 80%
+    - name: SQL Server
+      level: 88%
+    - name: MySQL
+      level: 85%
+    - name: Linux
+      level: 76%
+    - name: Docker
+      level: 75%
 
 footer: >
-    Created with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> by <a href="https://github.com/alexcvcoelho/cv" target="_blank">Alex Coelho</a>
+  Criado com <a href="https://jekyllrb.com" target="_blank">Jekyll</a> por <a href="https://github.com/alexcvcoelho/cv" target="_blank">Alex Coelho</a>
